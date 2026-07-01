@@ -5,3 +5,15 @@ https://expo.dev/artifacts/eas/SndgDUsIdVUWtDFYkhZIGWkPtfHgzhQqL40LimUABig.apk
 https://expo.dev/accounts/mayorjo4ever/projects/hymn-web-app/builds/781ae15f-a7b
 4-41c6-8bc8-6baaf011339e
 
+npx expo start -c
+npx expo start --host lan
+
+// to build 
+
+npm install -g eas-cli
+
+eas login
+
+eas build:configure
+
+eas build --platform android --profile preview
